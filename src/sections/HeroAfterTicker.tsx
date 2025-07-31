@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import ArrowRight from '../../public/assets/arrow-right.svg';
 import cogImage from '../../public/assets/bgg.png';
 import { motion } from 'framer-motion';
 
-export const Hero = () => {
+export const HeroAfterTicker = () => {
   return (
     <section className='pt-8 pb-20 md:pt-5 md:pd-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#c30011,#EAEEFE_100%)] overflow-x-clip'>
       <div className="container">
