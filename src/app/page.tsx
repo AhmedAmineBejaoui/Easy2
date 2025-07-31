@@ -2,7 +2,6 @@ import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { LogoTicker } from "@/sections/LogoTicker";
-import { HeroAfterTicker } from "@/sections/HeroAfterTicker";
 import { Services } from "@/sections/Services";
 import { Testimonials } from "@/sections/Testimonials";
 import { Contact } from "@/sections/Contact";
@@ -17,7 +16,6 @@ export default function Home() {
         <Hero />
       </div>
       <LogoTicker />
-      <HeroAfterTicker />
       <div id="services">
         <Services />
       </div>
