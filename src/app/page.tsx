@@ -1,0 +1,32 @@
+import { Footer } from "@/sections/Footer";
+import { Header } from "@/sections/Header";
+import { Hero } from "@/sections/Hero";
+import { LogoTicker } from "@/sections/LogoTicker";
+import { Services } from "@/sections/Services";
+import { Testimonials } from "@/sections/Testimonials";
+import { Contact } from "@/sections/Contact";
+import { Objectifs } from "@/sections/Objectifs";
+
+
+export default function Home() {
+  return (
+    <>
+      <Header />
+      <div id="home">
+        <Hero />
+      </div>
+      <LogoTicker />
+      <div id="services">
+        <Services />
+      </div>
+      <div id="objectifs">
+        <Objectifs />
+      </div>
+      <Testimonials />
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
+    </>
+  );
+}
